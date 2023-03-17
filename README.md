@@ -1,0 +1,1 @@
+Řešení třetího úkolu Mixér barev.
