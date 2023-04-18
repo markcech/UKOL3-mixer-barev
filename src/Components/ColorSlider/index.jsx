@@ -7,7 +7,7 @@ export const ColorSlider = ({ baseColor, colorName, onValueChange }) => {
 
   const handleChange = (e) => {
     setChangedValue(e.target.value);
-    onValueChange(changedValue);
+    onValueChange(e.target.value);
   };
 
   return (
